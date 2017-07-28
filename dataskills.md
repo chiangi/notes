@@ -1,20 +1,22 @@
 # Data Skills & Topics #
 
-## Using ##
-- xlrd
-- xlwt
-- xlutils
-- Python within SPSS
+## Using in Development ##
+- Python 2/3
+  - Read/write Excel files with xlrd, xlwt
+  - Python within SPSS
+- Text Editors as IDEs
+  - Atom
+  - Sublime Text
 
 ## Learning ##
-- Anaconda, Enthought Canopy packages
 - Jupyter notebook
 - Git, GitHub pages with Jekyll
 - scikit-learn
-- Numpy/Scipy
+- Numpy
+- Scipy
 - pandas
 
-## Machine Learning ##
+## Machine Learning Topics ##
 - linear regression
 - multi-variate regression
 - naive bayes
@@ -40,4 +42,5 @@
 
 ## TO-DO ##
 - [x] Start organizing stats skillset
+- [ ] Incorporate GitHub workflow
 - [ ] Python notebook
