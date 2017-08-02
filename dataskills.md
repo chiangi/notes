@@ -11,10 +11,11 @@
 ## Learning ##
 - Jupyter notebook
 - Git, GitHub pages with Jekyll
+- Pandas
 - scikit-learn
 - Numpy
 - Scipy
-- pandas
+- visualization: matplolib, Seaborn
 
 ## Machine Learning Topics ##
 - linear regression
