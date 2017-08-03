@@ -19,7 +19,7 @@
     <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
     <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
     
-            <style> #map_5eb270e3cdff4dc3b4ab876f31b3cc57 {
+            <style> #map_9a9f94a808654ce086c161a9f3b46b6b {
                 position : relative;
                 width : 100.0%;
                 height: 100.0%;
@@ -31,7 +31,7 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_5eb270e3cdff4dc3b4ab876f31b3cc57" ></div>
+            <div class="folium-map" id="map_9a9f94a808654ce086c161a9f3b46b6b" ></div>
         
 </body>
 <script>    
@@ -43,10 +43,10 @@
                 var bounds = L.latLngBounds(southWest, northEast);
             
 
-            var map_5eb270e3cdff4dc3b4ab876f31b3cc57 = L.map(
-                                  'map_5eb270e3cdff4dc3b4ab876f31b3cc57',
-                                  {center: [34.073922,-118.239518],
-                                  zoom: 17,
+            var map_9a9f94a808654ce086c161a9f3b46b6b = L.map(
+                                  'map_9a9f94a808654ce086c161a9f3b46b6b',
+                                  {center: [40.779469,-73.9626],
+                                  zoom: 15,
                                   maxBounds: bounds,
                                   layers: [],
                                   worldCopyJump: false,
@@ -55,53 +55,42 @@
             
         
     
-            var tile_layer_7b3dc7ee53604aa18fed1aa13e381c10 = L.tileLayer(
-                'https://{s}.tiles.mapbox.com/v3/mapbox.world-bright/{z}/{x}/{y}.png',
+            var tile_layer_87c6bc88d3e542f9b517e8fae91d9fc6 = L.tileLayer(
+                'https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}.png',
                 {
                     maxZoom: 18,
                     minZoom: 1,
                     continuousWorld: false,
                     noWrap: false,
-                    attribution: 'Map tiles by <a href="http://www.mapbox.com/m">Mapbox</a> Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>.',
+                    attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.',
                     detectRetina: false
                     }
-                ).addTo(map_5eb270e3cdff4dc3b4ab876f31b3cc57);
+                ).addTo(map_9a9f94a808654ce086c161a9f3b46b6b);
 
         
     
-            var feature_group_b7160218e2ba4a52a789a78f16ab05e7 = L.featureGroup(
-                ).addTo(map_5eb270e3cdff4dc3b4ab876f31b3cc57);
-        
-    
 
-            var marker_4cf72a7af0e3498aa7c839e55f2e1efc = L.marker(
-                [34.1,-118.3],
+            var circle_marker_4820ee3f9653498caae411ae2d6e5bbb = L.circleMarker(
+                [40.779469,-73.9635],
                 {
-                    icon: new L.Icon.Default()
+                    color: '#3186cc',
+                    weight: 2,
+                    fillColor: '#3186cc',
+                    fillOpacity: 0.6
                     }
                 )
-                .addTo(feature_group_b7160218e2ba4a52a789a78f16ab05e7);
+                .setRadius(50)
+                .addTo(map_9a9f94a808654ce086c161a9f3b46b6b);
             
     
-
-                var icon_8e803d35f34644e4a21fd3c9f4a42a1c = L.AwesomeMarkers.icon({
-                    icon: 'info-sign',
-                    iconColor: 'white',
-                    markerColor: 'green',
-                    prefix: 'glyphicon',
-                    extraClasses: 'fa-rotate-0'
-                    });
-                marker_4cf72a7af0e3498aa7c839e55f2e1efc.setIcon(icon_8e803d35f34644e4a21fd3c9f4a42a1c);
-            
-    
-            var popup_f0719c9b8a814eecb6e810bd99bfea48 = L.popup({maxWidth: '300'});
+            var popup_1e3683e336c64994a7d84b5a8bb701c9 = L.popup({maxWidth: '300'});
 
             
-                var html_bbcd17e69e254943bc00f41a8144b9e7 = $('<div id="html_bbcd17e69e254943bc00f41a8144b9e7" style="width: 100.0%; height: 100.0%;">Hi I am a Marker</div>')[0];
-                popup_f0719c9b8a814eecb6e810bd99bfea48.setContent(html_bbcd17e69e254943bc00f41a8144b9e7);
+                var html_7dd1b619b99f4714ae0541174a4bbaa4 = $('<div id="html_7dd1b619b99f4714ae0541174a4bbaa4" style="width: 100.0%; height: 100.0%;">THE MET</div>')[0];
+                popup_1e3683e336c64994a7d84b5a8bb701c9.setContent(html_7dd1b619b99f4714ae0541174a4bbaa4);
             
 
-            marker_4cf72a7af0e3498aa7c839e55f2e1efc.bindPopup(popup_f0719c9b8a814eecb6e810bd99bfea48);
+            circle_marker_4820ee3f9653498caae411ae2d6e5bbb.bindPopup(popup_1e3683e336c64994a7d84b5a8bb701c9);
 
             
         

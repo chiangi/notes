@@ -19,3 +19,13 @@ map.add_child(fg)
 
 # save to html
 map.save("Map1.html")
+
+map2 = folium.Map(location=[40.779469, -73.962600],
+    tiles='Stamen Toner', zoom_start=15)
+
+folium.CircleMarker([40.779469, -73.9635], radius=50,
+    popup='THE MET',
+    color='#3186cc',
+    fill_color='#3186cc').add_to(map2)
+
+map2.save("Map2.html")
