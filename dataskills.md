@@ -2,20 +2,22 @@
 
 ## Using in Development ##
 - Python 2/3
-  - Read/write Excel files with xlrd, xlwt
+  - xlrd, xlwt: Read/write Excel files
   - Python within SPSS
+  - Pandas, Numpy: data structures
+  - matplotlib, Seaborn: visualization
+  - Folium: web mapping
 - Text Editors as IDEs
   - Atom
   - Sublime Text
+- Version Control
+  - Git, GitHub, GitKraken
 
 ## Learning ##
 - Jupyter notebook
-- Git, GitHub pages with Jekyll
-- Pandas
+- GitHub pages with Jekyll
 - scikit-learn
-- Numpy
 - Scipy
-- visualization: matplolib, Seaborn
 
 ## Machine Learning Topics ##
 - linear regression
