@@ -19,7 +19,11 @@
     <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
     <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
     
+<<<<<<< HEAD
             <style> #map_5eb270e3cdff4dc3b4ab876f31b3cc57 {
+=======
+            <style> #map_91a7cf13d3254f218aee2a744e2ebee1 {
+>>>>>>> master
                 position : relative;
                 width : 100.0%;
                 height: 100.0%;
@@ -31,7 +35,11 @@
 </head>
 <body>    
     
+<<<<<<< HEAD
             <div class="folium-map" id="map_5eb270e3cdff4dc3b4ab876f31b3cc57" ></div>
+=======
+            <div class="folium-map" id="map_91a7cf13d3254f218aee2a744e2ebee1" ></div>
+>>>>>>> master
         
 </body>
 <script>    
@@ -43,10 +51,17 @@
                 var bounds = L.latLngBounds(southWest, northEast);
             
 
+<<<<<<< HEAD
             var map_5eb270e3cdff4dc3b4ab876f31b3cc57 = L.map(
                                   'map_5eb270e3cdff4dc3b4ab876f31b3cc57',
                                   {center: [34.073922,-118.239518],
                                   zoom: 17,
+=======
+            var map_91a7cf13d3254f218aee2a744e2ebee1 = L.map(
+                                  'map_91a7cf13d3254f218aee2a744e2ebee1',
+                                  {center: [34.073922,-118.239518],
+                                  zoom: 11,
+>>>>>>> master
                                   maxBounds: bounds,
                                   layers: [],
                                   worldCopyJump: false,
@@ -55,7 +70,11 @@
             
         
     
+<<<<<<< HEAD
             var tile_layer_7b3dc7ee53604aa18fed1aa13e381c10 = L.tileLayer(
+=======
+            var tile_layer_db5a844ed122489f9089c86d84c58c96 = L.tileLayer(
+>>>>>>> master
                 'https://{s}.tiles.mapbox.com/v3/mapbox.world-bright/{z}/{x}/{y}.png',
                 {
                     maxZoom: 18,
@@ -65,6 +84,7 @@
                     attribution: 'Map tiles by <a href="http://www.mapbox.com/m">Mapbox</a> Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>.',
                     detectRetina: false
                     }
+<<<<<<< HEAD
                 ).addTo(map_5eb270e3cdff4dc3b4ab876f31b3cc57);
 
         
@@ -75,22 +95,39 @@
     
 
             var marker_4cf72a7af0e3498aa7c839e55f2e1efc = L.marker(
+=======
+                ).addTo(map_91a7cf13d3254f218aee2a744e2ebee1);
+
+        
+    
+
+            var marker_1a59633efe41478c86301daffd9a2b7f = L.marker(
+>>>>>>> master
                 [34.1,-118.3],
                 {
                     icon: new L.Icon.Default()
                     }
                 )
+<<<<<<< HEAD
                 .addTo(feature_group_b7160218e2ba4a52a789a78f16ab05e7);
             
     
 
                 var icon_8e803d35f34644e4a21fd3c9f4a42a1c = L.AwesomeMarkers.icon({
+=======
+                .addTo(map_91a7cf13d3254f218aee2a744e2ebee1);
+            
+    
+
+                var icon_cab7b75d217944fca7cd94568474f24e = L.AwesomeMarkers.icon({
+>>>>>>> master
                     icon: 'info-sign',
                     iconColor: 'white',
                     markerColor: 'green',
                     prefix: 'glyphicon',
                     extraClasses: 'fa-rotate-0'
                     });
+<<<<<<< HEAD
                 marker_4cf72a7af0e3498aa7c839e55f2e1efc.setIcon(icon_8e803d35f34644e4a21fd3c9f4a42a1c);
             
     
@@ -105,4 +142,24 @@
 
             
         
+=======
+                marker_1a59633efe41478c86301daffd9a2b7f.setIcon(icon_cab7b75d217944fca7cd94568474f24e);
+            
+    
+            var popup_84f2e88ae08d4f66af819d89e404e63a = L.popup({maxWidth: '300'});
+
+            
+                var html_136c4d7893f34272a66441eb680d06a5 = $('<div id="html_136c4d7893f34272a66441eb680d06a5" style="width: 100.0%; height: 100.0%;">Hi I am a Marker</div>')[0];
+                popup_84f2e88ae08d4f66af819d89e404e63a.setContent(html_136c4d7893f34272a66441eb680d06a5);
+            
+
+            marker_1a59633efe41478c86301daffd9a2b7f.bindPopup(popup_84f2e88ae08d4f66af819d89e404e63a);
+
+            
+        
+    
+            var feature_group_8d7c41aaff154ffb9193cb258941a8aa = L.featureGroup(
+                ).addTo(map_91a7cf13d3254f218aee2a744e2ebee1);
+        
+>>>>>>> master
 </script>
