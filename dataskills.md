@@ -7,6 +7,7 @@
   - Pandas, Numpy: data structures
   - matplotlib, Seaborn: visualization
   - Folium: web mapping
+  - Flask: website building
 - Text Editors as IDEs
   - Atom
   - Sublime Text
